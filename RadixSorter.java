@@ -3,8 +3,8 @@ import java.util.ArrayList;
 
 public class RadixSorter {
 	public static void main(String[] args) {
-		int genLength = 20;
-		int genMax = 50000;
+		int genLength = 20; //default value
+		int genMax = 50000; //default max int value
 		if (args.length == 2) {
 			try {
 				genLength = Integer.valueOf(args[0]);
